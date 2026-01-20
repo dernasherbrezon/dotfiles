@@ -3,7 +3,8 @@ return {
   lazy = false,
   name = "catppucin",
   priority = 1000,
-  config = function() 
+  tag = "v1.11.0",
+  config = function()
     vim.cmd.colorscheme "catppuccin"
   end
 }
