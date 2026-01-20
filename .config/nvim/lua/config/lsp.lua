@@ -5,6 +5,13 @@ vim.lsp.config('*', {
   root_markers = { '.git' },
 })
 
+vim.lsp.config['qls'] = {
+  cmd = { 'qls' },
+  filetypes = { 'q' },
+  root_markers = { '.git' }
+}
+vim.lsp.enable('qls')
+
 vim.lsp.config['lua_ls'] = {
   -- Command and arguments to start the server.
   cmd = { 'lua-language-server' },
