@@ -22,7 +22,7 @@ require("lazy").setup({
   concurrency = 1,
   checker = {
     concurrency = 1,
-    enabled = true
+    enabled = false
   },
   install = { colorscheme = { "habamax" } }
 })
