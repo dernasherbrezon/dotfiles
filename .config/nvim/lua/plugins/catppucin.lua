@@ -23,12 +23,16 @@ return {
             ["@parameter"] = { fg = colors.text },
             ["@type.builtin.java"]     = { fg = colors.mauve, bold = true },
             ["@keyword.operator.java"] = { fg = colors.mauve, bold = true },
+            ["@keyword.conditional.java"] = { fg = colors.mauve, bold = true },
             ["@variable.member.java"] = { fg = colors.text },
             ["@variable.java"] = { fg = colors.lavender },
+            ["@variable.builtin.java"] = { fg = colors.mauve, bold = true },
+            ["@constant.builtin.java"] = { fg = colors.mauve, bold = true },
             ["@variable.parameter.java"] = { fg = colors.text },
             ["@function.method.java"] = { fg = colors.text },
             ["@function.method.call.java"] = { fg = colors.text },
             ["@lsp.type.namespace.java"] = { fg = colors.text },
+            ["@lsp.type.interface.java"] = { fg = colors.text },
 --            ["@number.java"] = { fg = colors.text },
           }
         end
