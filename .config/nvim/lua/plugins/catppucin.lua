@@ -24,6 +24,7 @@ return {
             ["@type.builtin.java"]     = { fg = colors.mauve, bold = true },
             ["@keyword.operator.java"] = { fg = colors.mauve, bold = true },
             ["@variable.member.java"] = { fg = colors.text },
+            ["@variable.java"] = { fg = colors.lavender },
             ["@variable.parameter.java"] = { fg = colors.text },
             ["@function.method.java"] = { fg = colors.text },
             ["@function.method.call.java"] = { fg = colors.text },
